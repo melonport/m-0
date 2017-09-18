@@ -1929,21 +1929,21 @@ li.active{
   padding-top: 15px;
 }
 .agenda-time{
-  font-family: Ubuntu;
+  font-family: Ubuntu !important;
 	font-size: 32px;
 	font-weight: 500;
 	line-height: 0.69;
 	color: #ffffff;
 }
 .agenda-title{
-  font-family: Ubuntu;
+  font-family: Ubuntu !important;
 	font-size: 22px;
   font-weight: 500;
 	line-height: 1.23;
 	color: #ffffff;
 }
 .agenda-desc{
-  font-family: Ubuntu;
+  font-family: Ubuntu !important;
 	font-size: 17px;
 	font-weight: 300;
 	font-style: normal;
@@ -1953,7 +1953,7 @@ li.active{
 	color: #c1c1c1;
 }
 .agenda-moderator{
-  font-family: Ubuntu;
+  font-family: Ubuntu !important;
 	font-size: 18px;
 	font-weight: 500;
 	font-style: normal;
