@@ -377,7 +377,6 @@ nav.navbar.transparent-white ul.ul-h.nav-menu > li > a {
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 1);
-    text-transform: uppercase;
     -webkit-transition: color .2s;
     transition: color .2s;
 }
@@ -814,22 +813,31 @@ p {
 	font-size: 16px;
 	line-height: 1.56;
 	text-align: center;
-	color: #c1c1c1;
+	color: rgb(156, 156, 156);
 }
-.speaker-name{
-  font-family: Ubuntu;
-	font-size: 24px;
-	font-weight: 500;
-	text-align: center;
-	color: #ffffff;
+.speaker-name {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(255, 255, 255);
 }
-.speaker-title{
-	font-family: Ubuntu;
-	font-size: 16px;
-	line-height: 1.38;
-	text-align: center;
-	color: #c1c1c1;
-  font-weight: 200;
+.speaker-title {
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: left;
+    color: rgb(193, 193, 193);
+    font-weight: 200;
+}
+.speaker-bio {
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(96, 96, 96);
+    font-weight: 200;
+    padding-right: 30px;
 }
 
 
@@ -1981,7 +1989,7 @@ li.active{
 }
 .nav-menu{
   font-family: Ubuntu;
-	font-size: 19px;
+	font-size: 17px;
 	line-height: 2.21;
 	text-align: center;
 	color: #c1c1c1;
