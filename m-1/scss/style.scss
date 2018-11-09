@@ -839,6 +839,14 @@ p {
     font-weight: 200;
     padding-right: 30px;
 }
+.speaker-bio p.read-more-wrap{
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(96, 96, 96);
+    font-weight: 200;
+}
 .custom-link{
   color: #ffffff;
 }
@@ -846,6 +854,42 @@ p {
   font-weight: 700;
   color: #ffffff;
 }
+
+/*---------- READ MORE ----------*/
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read Full Bio';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  color: #c1c1c1;
+  font-size: .9em;
+  line-height: 2;
+  font-weight: 300;
+}
+
 
 /*---------- BUTTONS ----------*/
 .main-button{
